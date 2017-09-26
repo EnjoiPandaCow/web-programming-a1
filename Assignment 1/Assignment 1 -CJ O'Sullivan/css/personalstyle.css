@@ -1,0 +1,188 @@
+/*The body tage is used so I can apply a background image and set it to repeat*/
+body{
+background-image: url(../images/background.jpg);
+background-repeat: repeat;
+}
+
+
+#main {
+  background-color: #FFF;
+  margin:2% auto;
+  width:90%;
+  padding-bottom: 5%;
+}
+
+/*Styles the image on the left of the indes page*/
+img {
+	border: 6px solid #999;
+	border-radius: 25px;
+}
+
+/*Styles the image on the right of the index page*/
+#drift {
+	float: right;
+}
+
+/*Styles the header at the top of the page*/
+header {
+  padding:3% 0% 2% 5%;
+  background-color: transparent;
+}
+
+/*Styles the h1 tages inside the header*/
+header, h1 {
+	text-align: center;
+}
+
+/*Sections off the body of the text*/
+section {
+  padding:2% 5%;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+/*Styles the font and the color of the h1 and h2 headigns*/
+h1, h2 {
+font-family: "Comic Sans MS", cursive;
+color: #0CC;
+}
+
+/*Styles the h1 headings seperatly*/
+h1 {
+font-size: 2em;
+}
+
+/*Styles the h2 headings seperatly*/
+h2{
+font-size: 1.5em;
+}
+
+/*Sytles the paragraphs*/
+p {
+font-family: Verdana, Geneva, sans-serif;
+font-size: 14px;
+text-align: justify;
+}
+
+/*Styles the unordered list*/
+ul {
+	list-style-type: square;
+}
+
+/*Styles the links that are inside a ul*/
+ul a:link {
+  color: #666 ;
+  text-decoration: none;
+}
+
+/*Styles the visited links that are inside a ul*/
+ul a:visited {
+  color: #333;
+  text-decoration: underline;
+}
+
+/*Styles the links that are hovered over inside a ul*/
+ul a:hover {
+  text-decoration: none;
+  color: #0CC;
+}
+
+/*Styles active links that are inside a ul*/
+ul a:active {
+  color: white;
+  background-color: dimgray;
+}
+
+/*Styles active links*/
+a:link {
+  color: #666;
+  text-decoration: underline;
+}
+
+/*Styles visited links*/
+a:visited {
+  color: #333;
+  text-decoration: underline;
+}
+
+/*Styles links when the are hovered over*/
+a:hover {
+  text-decoration: none;
+  color: #0CC;
+}
+
+/*Styles links when they are active*/
+a:active {
+  color: white;
+  background-color: dimgray;
+}
+
+/*Puts a border on the table and the table heddings and the table data*/
+table, th, td {
+	border: solid black 1px;
+}
+
+/*Syles the border on the table*/
+table {
+	border-collapse: collapse;
+
+}
+
+/*Styles the background colour on the table headings that are inside the table body*/
+tbody th {
+	background-color: #999;
+}
+
+/*Styles the table headings*/
+th {
+	font-family: serif;
+	font-size: 16px;
+	text-align: center;
+	background-color: dimgray;
+	color: white;;
+}
+
+/*Styles the table data*/
+td {
+	font-size: 16px;
+	font-family:sans-serif;
+	color: navy;
+}
+
+/*Gives the table headings and the table data padding*/
+th, td {
+	padding: 0.2em;
+}
+
+/*This is a class that moves one of the table headings and centers it*/
+.span {
+	text-align: center;
+}
+
+/*Changes the background colour of every odd row to grey*/
+tr:nth-of-type(odd) {
+	background-color: lightgray;
+}
+
+/*When the rows in the table are hovered over they change to slategray*/
+tbody tr:hover {
+	background-color: slategray;
+}
+
+/*Styles the table capion*/
+caption {
+  caption-side:bottom;
+  text-align:left;
+}
+
+/*Moves the video 30% in from the right*/
+video {
+	margin-left: 30%;
+}
+
+/*Everytime the word drifting comes up it is changes to italics*/
+.hobby {
+	font-style: italic;
+}
+
+
